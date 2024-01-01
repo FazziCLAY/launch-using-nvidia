@@ -1,1 +1,4 @@
+echo "[launch-using-nvidia] 'launch-using-nvidia' v1.1 by FazziCLAY. Available on https://github.com/FazziCLAY/launch-using-nvidia"
+echo "[launch-using-nvidia] launching '$1'..."
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia $1
+echo "[launch-using-nvidia] launch done!"
